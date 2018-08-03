@@ -1,28 +1,32 @@
 # git-auto-backup
+Create automatic backups of your repo
 
-creates automatic backups of you repo in a branch 'backup' as long as it's running
-
-Usage:    
-
-create backup branch in your repo:    
+## Usage:    
+Create a backup branch in your repo
+```
 git branch backup
+```
 
-Add files of this repo to your repo
+Add the files from [git-auto-backup](https://github.com/programizer/git-auto-backup/archive/master.zip) to your repo
 
-run:  
+After unzipping them, run them
+```
 ./.auto-git.sh
+```
 
-To be save break with ctrl+c in one of the 3 sec wait intervals after "backup created"  
+To save, break with Ctrl+C in one of the 3 sec wait intervals after "backup created" 
 
-(folder 'backup' for additional manual backups is ignored)   
-(you can remain on your usual branch, no need to checkout backup)
+The backup folder is ignored for additional manual backups
 
+You can remain on your usual branch since there is no need to check the backups
 
+## Acknowledgements
+Special thanks to the following Stack Overflow users:
 
-Special thanks to stackoverflow users:    
-https://stackoverflow.com/users/334451/mikko-rantalainen   
-https://stackoverflow.com/users/480937/david-yaw
+* [Mikko Rantalainen](https://stackoverflow.com/users/334451/mikko-rantalainen)
+* [David Yaw](https://stackoverflow.com/users/480937/david-yaw)
 
-for their answers:   
-https://stackoverflow.com/questions/25418092/how-can-i-set-up-git-branch-for-automatic-backups  
-https://stackoverflow.com/questions/4502476/how-can-i-write-a-tiny-bash-shell-script-to-repeat-an-action-every-5-seconds#4502532
+For their answers to the following questions:
+
+* [How can I set up git branch for automatic backups?](https://stackoverflow.com/questions/25418092/how-can-i-set-up-git-branch-for-automatic-backups)
+* [How can I write a tiny bash shell script to repeat an action every 5 seconds?](https://stackoverflow.com/questions/4502476/how-can-i-write-a-tiny-bash-shell-script-to-repeat-an-action-every-5-seconds#4502532)
