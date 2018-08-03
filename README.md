@@ -15,6 +15,7 @@ run:
 To be save break with ctrl+c in one of the 3 sec wait intervals after "backup created"  
 
 (folder 'backup' for additional manual backups is ignored)
+(you can remain on your usual branch, no need to checkout backup)
 
 
 
