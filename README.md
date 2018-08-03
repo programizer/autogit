@@ -14,10 +14,9 @@ After unzipping them, run them
 ./.auto-git.sh
 ```
 
-To stop, break with Ctrl+C in one of the 3 sec wait intervals after "backup created".   
+To stop the backups, break with Ctrl+C (ideally, in one of the 3 sec wait intervals after "backup created").   
 
 The backup folder is ignored for additional manual backups.    
-     
 You can remain on your usual branch since this script can still write to the branch backup.    
     
 
