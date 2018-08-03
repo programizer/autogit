@@ -18,7 +18,7 @@ To stop, break with Ctrl+C in one of the 3 sec wait intervals after "backup crea
 
 The backup folder is ignored for additional manual backups.    
      
-You can remain on your usual branch since there is no need to check the backups.    
+You can remain on your usual branch since this script can still write to the branch backup.    
     
 Alternatives to git with less features and memory usage:   
 ./.auto-rsync.sh     
