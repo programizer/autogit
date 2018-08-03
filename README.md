@@ -16,6 +16,7 @@ To be save break with ctrl+c in one of the 3 sec wait intervals after "backup cr
 
 (folder 'backup' for additional manual backups is ignored)   
 (you can remain on your usual branch, no need to checkout backup)
+(alternatives to git with less features and memory usage: ./.auto-rsync.sh or ./.auto-rdiff-backup.sh )
 
 
 
