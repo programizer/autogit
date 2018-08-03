@@ -7,11 +7,11 @@ Create a backup branch in your repo.
 git branch backup
 ```
 
-Add the files from [git-auto-backup](https://github.com/programizer/git-auto-backup/archive/master.zip) to your repo. (Skip this Readme in case it conflicts with your own.)
+Add the files from [autogit](https://github.com/programizer/autogit/archive/master.zip) to your repo. (Skip this Readme in case it conflicts with your own.)
 
 After unzipping them, run them
 ```
-./.auto-git.sh
+./.autogit.sh
 ```
 
 To stop the backups, break with Ctrl+C (ideally, in one of the 3 sec wait intervals after "backup created").   
