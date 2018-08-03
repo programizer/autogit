@@ -18,7 +18,13 @@ To save, break with Ctrl+C in one of the 3 sec wait intervals after "backup crea
 
 The backup folder is ignored for additional manual backups
 
+
 You can remain on your usual branch since there is no need to check the backups
+    
+Alternatives to git with less features and memory usage:   
+./.auto-rsync.sh
+./.auto-rdiff-backup.sh 
+
 
 ## Acknowledgements
 Special thanks to the following Stack Overflow users:
