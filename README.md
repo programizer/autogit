@@ -12,7 +12,9 @@ Add files of this repo to your repo
 run:  
 ./.auto-git.sh
 
-To be save break with ctrl+c in one of the 3 sec wait intervals after "backup created"
+To be save break with ctrl+c in one of the 3 sec wait intervals after "backup created"  
+
+(folder 'backup' for additional manual backups is ignored)
 
 
 
