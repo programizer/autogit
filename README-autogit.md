@@ -20,11 +20,6 @@ The backup folder is ignored for additional manual backups.
      
 You can remain on your usual branch since this script can still write to the branch backup.    
     
-Alternatives to git with less features and memory usage:  
-```
-./.auto-rsync.sh     
-./.auto-rdiff-backup.sh    
-```
 
 
 ## Acknowledgements
