@@ -1,4 +1,4 @@
-# git-auto-backup
+# autogit
 Create automatic backups of your repo.
 
 ## Usage:    
