@@ -7,7 +7,7 @@ Create a backup branch in your repo.
 git branch backup
 ```
 
-Add the files from [git-auto-backup](https://github.com/programizer/git-auto-backup/archive/master.zip) to your repo (without this readme)
+Add the files from [git-auto-backup](https://github.com/programizer/git-auto-backup/archive/master.zip) to your repo. (Skip this Readme in case it conflicts with your own.)
 
 After unzipping them, run them
 ```
