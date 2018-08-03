@@ -1,8 +1,8 @@
 # git-auto-backup
-Create automatic backups of your repo
+Create automatic backups of your repo.
 
 ## Usage:    
-Create a backup branch in your repo
+Create a backup branch in your repo.
 ```
 git branch backup
 ```
@@ -14,16 +14,15 @@ After unzipping them, run them
 ./.auto-git.sh
 ```
 
-To save, break with Ctrl+C in one of the 3 sec wait intervals after "backup created" 
+To stop, break with Ctrl+C in one of the 3 sec wait intervals after "backup created".   
 
-The backup folder is ignored for additional manual backups
-
-
-You can remain on your usual branch since there is no need to check the backups
+The backup folder is ignored for additional manual backups.    
+     
+You can remain on your usual branch since there is no need to check the backups.    
     
 Alternatives to git with less features and memory usage:   
-./.auto-rsync.sh
-./.auto-rdiff-backup.sh 
+./.auto-rsync.sh     
+./.auto-rdiff-backup.sh    
 
 
 ## Acknowledgements
