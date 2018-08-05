@@ -1,0 +1,5 @@
+backup/
+.autogit.sh
+.snapshot-subroutine.sh
+.gitignore.example
+

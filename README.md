@@ -7,7 +7,7 @@ Create a backup branch in your repo.
 git branch backup
 ```
 
-Add the files from [autogit](https://github.com/programizer/autogit/archive/master.zip) to your repo. (Skip this Readme in case it conflicts with your own.)
+Add the files from [autogit](https://github.com/programizer/autogit/archive/master.zip) to your repo. (Skip Readme and .gitignore in case they conflict with your own files.)
 
 After unzipping them, run them
 ```
@@ -16,8 +16,23 @@ After unzipping them, run them
 
 To stop the backups, break with Ctrl+C (ideally, in one of the 3 sec wait intervals after "backup created").   
 
+
+## Remarks:
+You can remain on your usual branch for working, since this script can still write to the branch backup.    
 The backup folder is ignored for additional manual backups.    
-You can remain on your usual branch since this script can still write to the branch backup.    
+You might want to add the autogit files to the gitignore list after pasting them in your repo, which you can either do with a short
+```
+cp .gitignore.example .gitignore
+```
+or, in case you already have a gitignore file in your repo, by manually adding this copy-and-paste-ready list:
+```
+backup/
+.autogit.sh
+.snapshot-subroutine.sh
+.gitignore.example
+```
+
+
     
 
 
